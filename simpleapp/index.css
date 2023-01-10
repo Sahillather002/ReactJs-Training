@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+h1{
+    margin: 10px;
+}
+
+h2{
+    font-size: large;
+    margin-bottom: 25px;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    color:aqua;
+    font-weight: 200px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+#increment-btn{
+    background: darkblue;
+}
