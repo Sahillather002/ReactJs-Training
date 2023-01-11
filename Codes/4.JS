@@ -38,6 +38,7 @@ console.log(person.skills.push("Node"))
 // update
 person["age"]=43
 console.log(person)
+
 // adding mini method to an object
 person.getPersonInfo = function(){
     return `${this.firstName} ${this.lastName} is ${this.age} years old. The skills are ${this.skills}`
@@ -45,3 +46,19 @@ person.getPersonInfo = function(){
 
 console.log(person)
 console.log(person.getPersonInfo)
+console.log(person.keys)
+
+// Object methods
+// Object : provides common functionalities to all js objects
+
+const copyPerson = Object.assign({},person)
+console.log(copyPerson)
+
+// keys printing
+const keys = Object.keys(person)
+console.log(keys)
+
+// printing values
+const values = Object.values(person)
+console.log(values)
+
