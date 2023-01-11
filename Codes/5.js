@@ -49,3 +49,31 @@ function discountPrices(prices,discount){
 }
 
 console.log(discountPrices([100,250,350,140],0.5))
+
+/* if var is replaced with let
+    then we got error for block scope for 
+    our temp variables
+
+    function discountPrices(prices,discount){
+    var discounted = [];
+    for (let i=0;i<prices.length;i++){ // var is global scopped and these variables are available outside as well
+        let discountedPrice = prices[i] * (1 - discount)
+        let finalPrice = Math.round(discountedPrice * 100)/100
+        discounted.push(finalPrice)
+    }
+    // these are called temprary variables 
+    console.log(i)
+    console.log(discountedPrice)
+    console.log(finalPrice)
+    
+    return discounted;
+}
+
+// we got referencError : i is not defined
+
+*/
+
+// Therefore
+// var: is global scoped
+// let: is block scoped
+
