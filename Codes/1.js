@@ -99,3 +99,13 @@ console.log(NaN==undefined)
 console.log(typeof(NaN))
 console.log(1===1.0)
 console.log(0.1+0.1+0.1 === 0.3) // false
+
+
+// Falsy values
+/* false
+   0
+   ""
+   null
+   undefined
+   NaN
+*/
