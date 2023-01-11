@@ -13,3 +13,21 @@ secondPersonDetails.age=54
 console.log(personDetails)
 console.log(secondPersonDetails)
 
+// scope
+
+function getDate(){
+    var date = new Date();
+    return date;
+}
+
+getDate();
+console.log(date)
+//not availabe outsided func.
+// ReferenceError: date is not defined
+
+function getDate(){
+    var date = new Date();
+    function formatDate(){
+        
+    }
+}
