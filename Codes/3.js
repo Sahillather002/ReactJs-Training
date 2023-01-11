@@ -6,4 +6,14 @@
 // add , delete , update methods at any time
 // no access control
 
-const account = {}; // it is an object
+// const account = {}; // it is an object
+
+const account = {
+    name:"sahil",
+    accNum:345678,
+    bank:"sbi"
+};
+console.log(account)
+// o/p : { name: 'sahil', accNum: 345678, bank: 'sbi' }
+// An object is an unorerd collection o properties
+// Each property has name(key), and a value
