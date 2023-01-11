@@ -76,4 +76,4 @@ console.log(discountPrices([100,250,350,140],0.5))
 // Therefore
 // var: is global scoped
 // let: is block scoped
-
+// const: block scoped
