@@ -83,7 +83,9 @@ console.log(NaN+"1")
 console.log(null == null)
 console.log(undefined == undefined)
 console.log(null == undefined)
+
 //   **symbol**
+// it used for having unique properties
 
 console.log("10"==10)  // checks only for value
 console.log("10" === 10) // checks both values and types 
