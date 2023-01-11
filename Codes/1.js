@@ -77,8 +77,12 @@ console.log(NaN+1)
 console.log(NaN+"1")
 //  **Object**
 //   **Boolean** (true or false)
+
 //   **null** (delibrate nothing)
 //   **undefined** (accidental nothing)
+console.log(null == null)
+console.log(undefined == undefined)
+console.log(null == undefined)
 //   **symbol**
 
 console.log("10"==10)  // checks only for value
@@ -109,3 +113,9 @@ console.log(0.1+0.1+0.1 === 0.3) // false
    undefined
    NaN
 */
+console.log(false==0)
+console.log(0=="")
+console.log(""==false)
+
+console.log(NaN==NaN , NaN==null , NaN==undefined,NaN==false)
+// all will be printed false
