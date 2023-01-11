@@ -48,3 +48,15 @@ function makeGreetingTemplate(name,email,id){
         </div>
     `
 }
+
+console.log(makeGreetingTemplate("sudeep","a@gmail.com",12345))
+
+/* o/p :
+     <div>
+            <h1>Hello , sudeep</h1>
+            <p>
+                we've emailed you at a@gmail.com,
+                Your user id is '12345'.
+            </p>
+        </div>
+*/
