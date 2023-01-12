@@ -39,6 +39,33 @@ console.log(sumOfNumbers(2,3,4,5,6))
 
 // Anonymous functions
 
-function(arr) {
-    
+// function(num) {
+//     return num * num
+// }
+
+// it will show error as it does not have any name
+
+// function expression :
+const squareFun = function(num) {
+    return num*num
 }
+// functions are first class citizens in JS :-)
+
+console.log(squareFun(5))
+
+/* Hoisting = moving all functions on top of file
+   note that hoisting don't work on function expression
+   e.g:
+   square(5)
+
+   function square(num){
+    return num*num
+   }
+
+   here function square defined after calling 
+   there while runing it moved upwards automatically
+*/
+
+// Arrow function
+
+
