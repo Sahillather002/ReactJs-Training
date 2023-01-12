@@ -49,3 +49,9 @@ function multiplyByTen(num){
 
 const tenMultiplesArray = numbers.map(multiplyByTen)
 console.log(tenMultiplesArray)
+
+let multiplesArray = []
+for(let i=0;i<numbers.length;i++){
+    multiplesArray[i] = numbers[i]*10
+}
+console.log(multiplesArray)
