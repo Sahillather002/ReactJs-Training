@@ -42,3 +42,10 @@ console.log(numbers)
 //it retrn a new array by transforming the array by 
 //applying callback to each element of array
 //immutable
+
+function multiplyByTen(num){
+    return num*10;
+}
+
+const tenMultiplesArray = numbers.map(multiplyByTen)
+console.log(tenMultiplesArray)
