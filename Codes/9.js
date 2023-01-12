@@ -67,5 +67,67 @@ console.log(squareFun(5))
 */
 
 // Arrow function
+// used as call back functions and higher order function
+// => called as fat arrow
+// -> called as thin arrow
+// function is removed by =>
+
+const squareArr = (num) => {
+    return num*num
+}
+
+console.log(squareArr(6))
+
+const squareArr1 = (num) => {return num*num};
+console.log(squareArr1(7))
+
+const squareArr2 = (num) => num*num;
+console.log(squareArr2(8))
+
+const squareArr3 = num => num*num;
+console.log(squareArr3(9))
+
+// nxt example
+function add(a,b=3){
+    const total = a+b;
+    return total;
+}
+
+console.log(add(5))
+
+// converting it into function expression
+
+const add1 = function(a,b=3){
+    const total = a+b;
+    return total;
+}
+
+console.log(add1(4))
+
+// now converting it into arrow function
+
+const add2 = (a,b=3) => {
+    return total = a+b;
+}
+
+console.log(add2(6))
+
+const add3 = (a,b=3) => a+b;
+console.log(add3(8))
+
+// arrow function to find max of two numbers
+const arrMax = (a,b) => Math.max(a,b)
+console.log(arrMax(3,4))
+
+const arrMax1 = (a,b) => a>b?a:b;
+console.log(arrMax1(5,7))
+
+// issue with arrow function
+// const printFullName = (first,last) => {name: `${first} ${last}`,age: 20}
+// above will generate error as curly braces sees as function
+// for returning value we can close it inside parenthesis
+
+ const printFullName = (first,last) =>({name: `${first} ${last}`,age: 20})
+ console.log(printFullName("sahil","lather"))
 
 
