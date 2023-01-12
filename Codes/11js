@@ -31,7 +31,6 @@ Add()
 
 // var string2Num=parseInt("123xyz");
 
-
 // function hypotenuse(a, b){
 //     function square(x){
 //           return x*x;
