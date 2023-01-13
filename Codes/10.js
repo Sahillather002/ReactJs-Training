@@ -48,6 +48,7 @@ function multiplyByTen(num){
 }
 
 const tenMultiplesArray = numbers.map(multiplyByTen)
+// multiplyByTen is callBack function
 console.log(tenMultiplesArray)
 
 let multiplesArray = []
