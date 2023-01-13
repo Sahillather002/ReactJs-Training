@@ -116,9 +116,17 @@ console.log(combinedString)
 
 const prod = numbers.reduce((acc,curr) => {
     console.log("acc:"+acc);
-    console.log("curt"+curt);
-    return acc*curt
+    console.log("curr"+ curr);
+    return acc*curr;
 })
 
 // *** find ***
 // it gives us first occurence of element in the array based on the condition
+
+const firstEvenNumber = number.findIndex((num) => num%2===0)
+console.log(firstEvenNumber)
+
+// more methods like:
+// Array.prototype.every()
+// Array.prototype.some()
+// etc.
