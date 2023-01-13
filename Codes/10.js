@@ -57,3 +57,9 @@ for(let i=0;i<numbers.length;i++){
 }
 console.log(multiplesArray)
 
+const countries = ["India","England","Iceland","Australia","Norway"]
+// countries.forEach( function(country,i){
+//     console.log(i,country.toUpperCase())
+// })
+
+countries.forEach((country,i) => console.log(i,country.toUpperCase()))
