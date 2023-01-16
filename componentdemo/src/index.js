@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
+// concept of composition
+// it mean creating a big thing with small things
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <div>
-      <h1> No app.js</h1>
-    </div>
-  </React.StrictMode>
+  <WebPage />
 );
 
 // html element always start with lower case
