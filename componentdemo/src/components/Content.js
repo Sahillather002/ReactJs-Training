@@ -1,4 +1,4 @@
-function Content(){
+export default function Content(){
     return(
       <div>
         <h1> We are learning react components</h1>

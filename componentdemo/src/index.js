@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-
+import WebPage from './components/WebPage';
 // concept of composition
 // it mean creating a big thing with small things
 
