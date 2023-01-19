@@ -1,4 +1,11 @@
+// import {MdStar,MdStarBorder,MdArrowCircleUp}
 export default function Product(props) {
+    console.log(props)
+    
+    // function updateVoteHandler(){
+    //     console.log("updateVoteHandler"+ " " + id)
+    //     voteProduct(id)
+    // }
     return (
         <div className="product-card">
             <img 
