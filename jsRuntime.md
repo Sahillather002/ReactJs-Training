@@ -15,3 +15,4 @@ function b(){
 a()
 
 * Web api
+Browser gives us APIs that we can call in our Js code. It is written in low level language like C,AJAX requests, local storage, DOM ,etc.

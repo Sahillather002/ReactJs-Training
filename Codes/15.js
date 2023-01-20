@@ -17,18 +17,41 @@
 // console.log(b())
 // console.log(c())
 
+// ------------nxt e.g. ---------
 
-console.log("Inside global execution context")
-function functionOne(){
-    console.log("Inside function one")
-    function setTimeoutFunction(){
-        console.log("Inside setTimeotFunction: Executed after 1 sec")
-    }
-    setTimeout(setTimeoutFunction,1000)
-    for(let i=0;i<1000000;i++){
-        // blocking code
-    }
-    console.log("Exiting function one")
-}
+// console.log("Inside global execution context")
+// function functionOne(){
+//     console.log("Inside function one")
+//     function setTimeoutFunction(){
+//         console.log("Inside setTimeotFunction: Executed after 1 sec")
+//     }
+//     setTimeout(setTimeoutFunction,1000)
+//     for(let i=0;i<1000000;i++){
+//         // blocking code
+//     }
+//     console.log("Exiting function one")
+// }
 
-console.log(functionOne())
+// console.log(functionOne())
+
+
+// call back hell or pyramid of doom 
+setTimeout(() => {
+    console.log("Authenticate")
+    setTimeout(() => {
+        console.log("Download image")
+        setTimeout(() => {
+            console.log("Manipulate image")
+            //...
+        },1000)
+    },1000)
+},1000)
+
+// const timeOut = (time) => new Promise(resolve => setTimeout(resolve,time))
+// timeOut(1000)
+//     .then(()=>{
+//       console.log("Authenticate")  
+//     })
+//     .then(()=>{
+
+//     })
