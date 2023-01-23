@@ -3,6 +3,7 @@
 * Promises is a way to handle asynchronous operations.
 * It solves the problem of callback hell / pyrmid of doom
 * Provides standard way to handle errors
+<<<<<<< HEAD
 * Allows us to chain asynchronous operations together.
 
 Three States:
@@ -40,3 +41,6 @@ const promise = new Promise(function(resolve,reject){
 
 promise.then((result)=>console.log(result))
 promise.catch((result)=>console.error(error))
+=======
+* Allows us to chain asynchronous operations together.
+>>>>>>> temp
